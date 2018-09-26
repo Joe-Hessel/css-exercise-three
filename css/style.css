@@ -17,6 +17,8 @@ body {
 nav {
   margin: 0 auto;
   padding-left: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
   position: fixed;
   width: 420px;
   background-color: black;
@@ -24,10 +26,11 @@ nav {
 
 .restaurant-list {
   padding-top: 50px;
-  background-color: #aaa;
+  background-color: #eeeeee;
   float: left;
   margin: 0%;
   padding: 0%;
+  padding-top: 40px;
   width: 420px;
 }
 
@@ -46,14 +49,16 @@ width: 420px;}
 .arrow {
 float: right;
 margin-bottom: 5%;
-margin-top: 5%;}
+margin-top: 5%;
+margin-right: 5%}
 
 h1 {
   font-size: 2em; /* 32px */
   margin-left: 10%;
+  font-weight: bold;
 }
 
 h3 {font-size: 1.4em;
 margin-left: 10%;}
 
-.location:hover {background-color: gray; } /* mouse over */
+.location:hover {background-color: #aaa; } /* mouse over */
